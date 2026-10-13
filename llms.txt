@@ -1,0 +1,18 @@
+# opencode companion
+
+> opencode companion (formerly opencode remote) is an iPhone app for the opencode AI coding agent. The agent runs on your own computer; the app lets you follow sessions live, approve permissions, review diffs and send instructions from your phone. End-to-end encrypted relay, no account, no VPN. 7-day free trial, then one one-time payment, no subscription.
+
+## App
+- [App Store](https://apps.apple.com/app/id6813434085?ct=llms): download the iPhone app
+- [Product page](https://raaulalonso.github.io/opencode-remote-privacy/app.html): features, quick start and FAQ
+
+## Docs
+- [GitHub repository](https://github.com/raaulalonso/opencode-remote): source code, README, protocol documentation
+- [ocremote on npm](https://www.npmjs.com/package/ocremote): the companion that runs next to opencode (npx ocremote --pair)
+- [Support](https://raaulalonso.github.io/opencode-remote-privacy/support.html)
+- [Privacy policy](https://raaulalonso.github.io/opencode-remote-privacy/index.html): the app collects no personal data
+
+## Quick start
+1. npm install -g opencode-ai, then opencode auth login (once)
+2. npx ocremote --pair on the computer, which shows a QR code
+3. Open the app and scan the QR code
